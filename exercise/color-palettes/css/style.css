@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#ocean {
+    text-align: center;
+    font-family: cursive;
+}
+
+#platinum {
+    text-align: center;
+    font-family: cursive;
+    background-color: #d8dbe2;
+    padding: 24px;
+}
+
+#powder {
+    text-align: center;
+    font-family: cursive;
+    background-color: #a9bcd0;
+    padding: 24px;
+}
+
+#moonstone {
+    text-align: center;
+    font-family: cursive;
+    background-color: #58a4b0;
+    padding: 24px;
+}
+
+#charcoal {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    background-color: #373f51;
+    padding: 24px;
+}
+
+#black {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    background-color: #1b1b1e;
+    padding: 24px;
+}
+
+#sunrise {
+    text-align: center;
+    font-family:serif;
+}
+
+#yellow {
+    text-align: center;
+    font-family: serif;
+    background-color: #ffb627;
+    padding: 24px;
+}
+
+#orange {
+    text-align: center;
+    font-family: serif;
+    background-color: #ff9505;
+    padding: 24px;
+}
+
+#cocoa {
+    text-align: center;
+    font-family: serif;
+    background-color: #e2711d;
+    padding: 24px;
+}
+
+#tawny {
+    text-align: center;
+    font-family: serif;
+    background-color: #cc5803;
+    padding: 24px;
+}
+
+#toasty{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mortuum {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4f3130;
+    color: white;
+    padding: 24px;
+}
+
+#wine {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #753742;
+    color: white;
+    padding: 24px;
+}
+
+#redwood {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #aa5042;
+    padding: 24px;
+}
