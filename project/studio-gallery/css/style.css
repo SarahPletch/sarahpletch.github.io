@@ -1,0 +1,78 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.first-image {
+    width: 125x;
+    height: 150px;
+    display: block;
+}
+
+.second-image {
+    width: 150px;
+    height: 125px;
+    display: block;
+}
+
+.third-image {
+    width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+}
+
+.outer-border {
+    border: solid 3px brown;
+    margin: 40px 10px;
+    border-style: inset;
+}
+
+.inner-border {
+    border: solid 10px burlywood;
+    border-style: inset;
+}
+
+.outer-border2 {
+    border: solid 5px purple;
+    margin: 50px 10px;
+    border-style: inset;
+}
+
+.inner-border2 {
+    border: solid 7px lightsteelblue;
+    border-style: inset;
+}
+
+.outer-border3 {
+    border: solid 3px black;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border-style: inset;
+}
+
+.inner-border3 {
+    border: solid 5px burlywood;
+    border-radius: 50%;
+    border-style: inset;
+}
+
+.outer-border4 {
+    border: solid 5px gold; 
+    text-align: center;
+    margin: 30px;
+    border-style: inset;
+}
+
+.inner-border4 {
+    border: solid 10px #db480f;
+    color: forestgreen;
+    background-color: #ffc68b;
+    padding: 3px;
+    font-size: 12px;
+    border-style: inset;
+}
