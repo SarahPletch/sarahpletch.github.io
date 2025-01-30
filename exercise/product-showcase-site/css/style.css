@@ -51,6 +51,7 @@ body {
     color: white;
     padding: 3px 15px;
     display: inline-block;
+    font-weight: bold;
 }
 
 .background-section-2 {
@@ -87,4 +88,8 @@ body {
 .section-1,
 .section {
     color: darkblue;
+}
+
+.section-1 h1 {
+    font-size: 45px;
 }
