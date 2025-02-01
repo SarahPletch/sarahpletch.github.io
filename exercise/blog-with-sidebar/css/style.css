@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 450px 250px 1fr;
+    grid-template-areas:
+        ". content sidebar .";
+    margin: 36px 0px;
+    color: purple;
+}
+
+#sidebar-content {
+    grid-area: sidebar;
+}
+
+#sidebar-content h3 {
+    background-color: purple;
+    color: white;
+    padding: 8px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+#sidebar-content a {
+    color: purple;
+    text-decoration: none;
+}
+
+#sidebar-content li {
+    border-bottom: 1px solid purple;
+    padding: 8px 0px;
+}
+
+#other-posts li:last-child {
+    border-bottom: 0px;
+}
+
+#categories li:last-child {
+    border-bottom: 0px;
+}
+
+#sidebar-content ul {
+    background-color: #B9A4E0;
+    border: 1px solid purple;
+    margin: 0px 0px 35px;
+    list-style-type: none;
+    padding: 0px 12px;
+    color: purple;
+}
+
+#main-content {
+    grid-area: content;
+    margin: 0px 36px;
+}
+
+.main-characters {
+    width: 150px;
+    height: 250px;
+    grid-area: sidebar;
+    margin: 10px 30px;
+}
+
+.book-cover {
+    width: 150px;
+    height: 225px;
+}
+
+.movie-poster {
+    width: 150px;
+    height: 225px;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "content sidebar";
+}
+
+#first-paragraph {
+    grid-area: content;
+}
+
+#main-content h1 {
+    font-size: 50px;
+}
