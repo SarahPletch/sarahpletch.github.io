@@ -46,13 +46,15 @@ body {
 
 #header #me {
     color: blue;
+    padding: 4px;
+    border-radius: 8px;
 }
 
 #header #tube {
     color: white;
     background-color: #32CDF0;
     padding: 4px;
-    border-radius: 12px;
+    border-radius: 0px 8px;
 }
 
 #sidebar ul {
