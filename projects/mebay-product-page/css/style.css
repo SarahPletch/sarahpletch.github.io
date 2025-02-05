@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#column-layout {
+    display: grid;
+    grid-template-columns: 0.75fr 2.5fr 2fr;
+    grid-template-areas:
+        "column-one column-two column-three";
+}
+
+#column-one {
+    grid-area: column-one;
+}
+
+#column-one img {
+    display: block;
+    width: 75px;
+    border-radius: 10px;
+    margin: 5px 55px;
+}
+
+.violin-1 {
+    border: 2px solid blue;
+}
+
+#column-two {
+    grid-area: column-two;
+    margin: none;
+}
+
+.thumbnail-placeholder {
+    background-color: #9ee4f7;
+    padding: 0px 100px;
+    border-radius: 15px;
+}
+
+.large-image {
+    width: 500px;
+    height: 500px;
+}
+
+#main-content {
+    grid-area: column-three;
+    margin: 20px;
+}
+
+#seller-info {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+        "image name";
+    border-bottom: 1px solid blue;
+    padding: 10px;
+}
+
+.seller {
+    grid-area: image;
+    width: 75px;
+    border-radius: 100%;
+}
+
+#seller-info #info {
+    grid-area: name;
+}
+
+#seller-info .name {
+    font-weight: bold;
+}
+
+#seller-info .underline {
+    text-decoration: underline;
+}
+
+#main-content h3 {
+    margin: 0px 10px 10px 10px;
+    padding: 5px;
+    border-bottom: 1px solid blue;
+}
+
+#price h2 {
+    margin: 10px 0px 2px;
+}
+
+#price div {
+    color: gray;
+}
+
+#price span {
+    text-decoration: underline;
+}
+
+#price {
+    border-bottom: 1px solid blue;
+}
+
+#options {
+    margin: 10px 0px;
+}
+
+#options span {
+    font-weight: bold;
+}
+
+#options h4 {
+    text-align: center;
+}
+
+#button-one {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+#buttons {
+    background-color: #9ee4f7;
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 15px;
+    color: blue;
+}
+
+#closing-item {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid blue;
+}
+
+#closing-item span {
+    font-weight: bold;
+    text-decoration: underline;
+}
