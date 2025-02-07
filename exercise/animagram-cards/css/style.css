@@ -23,6 +23,7 @@
     flex-direction: column;
     text-align: center;
     padding: 30px;
+    height: 550px
 }
 
 .card-style-2 img {
