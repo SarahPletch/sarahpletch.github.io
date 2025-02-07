@@ -64,7 +64,7 @@
     box-shadow: 1px 1px 5px black;
     text-align: center;
     padding: 24px;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .post-it-6 {
@@ -76,7 +76,6 @@
     font-size: 15px;
     padding: 24px;
 }
-
 
 .plane {
     width: 250px;
