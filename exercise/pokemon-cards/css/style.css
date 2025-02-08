@@ -1,0 +1,119 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-container {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-style-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    border: 15px solid gold;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 18px;
+}
+
+.card-style-3 .pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card-style-3 h2 {
+    margin: 0px;
+}
+
+.card-style-3 img {
+    border: 5px solid goldenrod;
+    width: 100%;
+}
+
+.card-style-3 .details {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    background:
+        radial-gradient(at left, gold, goldenrod);
+    margin: 5px;
+    font-style: italic;
+}
+
+.card-style-3 .attack {
+    display: flex;
+    align-items: center; 
+    flex: 1; 
+    border-bottom: 2px solid black;
+    margin: 8px 0px;
+    padding: 8px 0px 16px;
+    justify-content: space-between;
+}
+
+.card-style-3 .attack .power {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-style-3 .data {
+    border: 2px solid goldenrod;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-style-3 .description {
+    margin: 0px 4px;
+}
+
+.card-style-3 .description .bold {
+    font-weight: bold;
+}
+
+#pokemon-card-1,
+#pokemon-card-2,
+#pokemon-card-5 {
+    background:
+        radial-gradient(at top left, lightgreen, green, lightgreen);
+}
+
+#pokemon-card-2 .details {
+    font-size: 10px;
+}
+
+#pokemon-card-3 {
+    background:
+        radial-gradient(at top left, #ff8800, rgb(255, 81, 0), #ff8800);
+}
+
+#pokemon-card-4 {
+    background:
+        radial-gradient(at top left, #00F2FF, #86D8FF, #00F2Ff);
+}
+
+.card-style-3 i.leaf-style {
+    background:
+        radial-gradient(green, 80%, black);
+}
+
+.card-style-3 i.fire-style {
+    background:
+        radial-gradient(red, 80%, black);
+}
+
+.card-style-3 i.water-style {
+    background:
+        radial-gradient(rgb(74, 164, 254), 80%, black);
+}
