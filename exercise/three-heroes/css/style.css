@@ -44,6 +44,10 @@ body {
     display: inline-block;
 }
 
+#hero-1 a:hover {
+    background-color: gray;
+}
+
 #hero-2 {
     background-image: url(../images/grandcanyon.jpg);
     height: 100vh;
@@ -84,6 +88,10 @@ body {
     margin-left: 12px;
 }
 
+#hero-2 a:hover {
+    background-color: lightseagreen;
+}
+
 #hero-3 {
     background-image: url("../images/disneyland.jpg");
     height: 100vh;
@@ -117,4 +125,8 @@ body {
     text-decoration: none;
     color: yellow;
     font-weight: bold;
+}
+
+#hero-3 a:hover {
+    background-color: purple;
 }
