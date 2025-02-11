@@ -6,3 +6,115 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#hero-1 {
+    background-image: url("../images/nothernlights.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-1 .hero-content {
+    text-align: right;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    color: white;
+}
+
+#hero-1 h2 {
+    font-size: 70px;
+    margin-bottom: 36px;
+}
+
+#hero-1 h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#hero-1 a {
+    font-size: 14px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#hero-2 {
+    background-image: url(../images/grandcanyon.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+}
+
+#hero-2 .hero-content {
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+}
+
+#hero-2 h2 {
+    font-size: 72px;
+    margin-bottom: 55px;
+}
+
+#hero-2 h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#hero-3 {
+    background-image: url("../images/disneyland.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+}
+
+#hero-3 h2 {
+    font-size: 80px;
+    margin-bottom: 36px;
+}
+
+#hero-3 h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#hero-3 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: magenta;
+    padding: 20px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
