@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Birthstone+Bounce:wght@400;500&family=Bonheur+Royale&family=Delius+Unicase:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Grechen+Fuemen&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Rubik+80s+Fade&family=Rubik+Glitch+Pop&family=Shrikhand&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/urban-hi-res-2nse.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+
+#hero #hero-content {
+    text-align: right;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+
+#hero h2 {
+    font-size: 85px;
+    color: white;
+    margin-bottom: 45px;
+    font-family: "Rubik 80s Fade", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hero a {
+    text-decoration: none;
+    background-color: red;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    font-family: "Fira Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#hero a:hover {
+    background-color: gray;
+    color: white;
+}
+
+#gallery {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#gallery #text-background {
+    background-color: red;
+    padding: 5px;
+    margin-bottom: 24px;
+}
+
+#gallery-text {
+    color:  black;
+    font-family: "Fira Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+#gallery-content img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+#card-section {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    gap: 45px; 
+    margin: 48px auto;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    width: 175px;
+    height: 120px; 
+    text-align: center;
+
+    border: 2px solid red;
+}
+
+.card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Fira Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card a {
+    color: white;
+    font-size: 14px;
+    background: red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Fira Mono", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.card a:hover {
+    background-color: white;
+    color: red;
+}
