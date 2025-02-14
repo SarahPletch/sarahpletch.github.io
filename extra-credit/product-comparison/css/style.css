@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/themeparkhero2gradient.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#hero #hero-image {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+}
+
+#hero h2 {
+    font-size: 75px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 35px;
+}
+
+#hero a {
+    background: magenta;
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 35px;
+}
+
+#hero a:hover {
+    background: blue;
+    color: magenta;
+}

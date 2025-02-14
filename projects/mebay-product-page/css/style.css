@@ -47,14 +47,15 @@ h1 {
 }
 
 .thumbnail-placeholder {
-    background-color: #9ee4f7;
     padding: 0px 100px;
     border-radius: 15px;
+    border: 1px solid blue;
 }
 
 .large-image {
     width: 500px;
     height: 500px;
+    border-radius: 15px;
 }
 
 #main-content {
