@@ -8,7 +8,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/themeparkhero2gradient.jpg");
+    background-image: url("../images/themeparkhero2gradient2.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -17,7 +17,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 #hero #hero-image {
@@ -37,12 +36,103 @@ body {
     background: magenta;
     text-decoration: none;
     color: blue;
-    padding: 15px;
+    padding: 20px;
     font-weight: bold;
     border-radius: 35px;
+    font-size: 18px;
 }
 
 #hero a:hover {
     background: blue;
     color: magenta;
+}
+
+#media-1 {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+    margin: 0px;
+    padding: 35px;
+}
+
+#media-1 .text-container {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+}
+
+#media-1 .image-container {
+    flex: 1;
+}
+
+#media-1 .image-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#media-1 .text-container h3 {
+    font-size: 48px;
+    color: blue;
+    font-size: 65px;
+}
+
+#media-1 .text-container a {
+    background: magenta;
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 35px;
+    font-size: 16px;
+}
+
+#media-1 .text-container a:hover {
+    background: blue;
+    color: magenta;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background: linear-gradient(blue, magenta);
+    padding: 48px;
+}
+
+#comparison-chart {
+    text-align: center;
+    margin: 60px 0px;
+    background: rgba(0, 0, 255, 0.224);
+}
+
+#comparison-chart h3 {
+    color: white;
+    font-size: 50px
+}
+
+#comparison-layout {
+    padding: 36px;
+}
+
+.comparison-row {
+    display: flex;
+    border-bottom: 4px solid blue;
+    color: white;
+}
+
+.comparison-row img {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.comparison-row div {
+    flex: 1;
+    padding: 24px;
+    font-size: 24px;
 }
