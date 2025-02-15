@@ -54,3 +54,56 @@ body {
     border-radius: 36px;
     color: #f2e750;
 }
+
+#navbar-top-index-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #262626;
+}
+
+#navbar-top-index-3 a {
+    text-decoration: none;
+    color: red;
+}
+
+#navbar-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, red, white);
+}
+
+#navbar-middle a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 24px;
+    color: #262626;
+}
+
+#navbar-middle #name {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#navbar-middle #button {
+    background-color: #262626;
+    color: red;
+    border-radius: 36px;
+    font-weight: bold;
+}
+
+#navbar-bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #262626;
+}
+
+#navbar-bottom a {
+    padding: 10px 24px;
+    text-decoration: none;
+    color: red;
+}
