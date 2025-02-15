@@ -66,6 +66,8 @@ body {
 #navbar-top-index-3 a {
     text-decoration: none;
     color: red;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #navbar-middle {
@@ -85,7 +87,7 @@ body {
 #navbar-middle #name {
     margin-right: auto;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 #navbar-middle #button {
