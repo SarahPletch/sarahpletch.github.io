@@ -8,7 +8,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/themeparkhero2gradient2.jpg");
+    background-image: url("../images/themeparkhero.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -33,9 +33,9 @@ body {
 }
 
 #hero a {
-    background: magenta;
+    background: #b30032;
     text-decoration: none;
-    color: blue;
+    color: #fff132;
     padding: 20px;
     font-weight: bold;
     border-radius: 35px;
