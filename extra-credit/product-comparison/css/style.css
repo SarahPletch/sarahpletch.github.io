@@ -43,8 +43,8 @@ body {
 }
 
 #hero a:hover {
-    background: blue;
-    color: magenta;
+    background: #ff7da1;
+    color: #fff132;
 }
 
 #media-1 {
@@ -53,6 +53,7 @@ body {
     margin: 48px 0px;
     margin: 0px;
     padding: 35px;
+    background-color: #0088b3
 }
 
 #media-1 .text-container {
@@ -72,14 +73,14 @@ body {
 
 #media-1 .text-container h3 {
     font-size: 48px;
-    color: blue;
+    color: white;
     font-size: 65px;
 }
 
 #media-1 .text-container a {
-    background: magenta;
+    background: #b30032;
     text-decoration: none;
-    color: blue;
+    color: #fff132;
     padding: 15px;
     font-weight: bold;
     border-radius: 35px;
@@ -87,8 +88,8 @@ body {
 }
 
 #media-1 .text-container a:hover {
-    background: blue;
-    color: magenta;
+    background: #ff7da1;
+    color: #fff132;
 }
 
 .single-column {
@@ -98,19 +99,20 @@ body {
 }
 
 #main-section {
-    background: linear-gradient(blue, magenta);
+    background: linear-gradient(#b30032, #fff132);
     padding: 48px;
 }
 
 #comparison-chart {
     text-align: center;
     margin: 60px 0px;
-    background: rgba(0, 0, 255, 0.224);
+    background: #0089b3b5;
 }
 
 #comparison-chart h3 {
     color: white;
-    font-size: 50px
+    font-size: 50px;
+    padding-top: 50px;
 }
 
 #comparison-layout {
@@ -119,7 +121,7 @@ body {
 
 .comparison-row {
     display: flex;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid #fff132;
     color: white;
 }
 
@@ -127,7 +129,7 @@ body {
     width: 200px;
     height: 150px;
     margin: 20px;
-    border: 2px solid blue;
+    border: 2px solid #fff132;
     border-radius: 15px;
 }
 
