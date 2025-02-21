@@ -455,7 +455,7 @@ body {
     }
     
     #header h1 {
-        font-size: 35px;
+        font-size: 38px;
     }
 
     #nav {
@@ -494,8 +494,14 @@ body {
             "bottom";
     }
 
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #header h1 {
-        font-size: 25px;
+        font-size: 33px;
     }
 
     #nav {

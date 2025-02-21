@@ -58,3 +58,13 @@ body {
     font-weight: bold;
     font-size: 20px; 
 }
+
+#background-container {
+    background: linear-gradient(to bottom, #cfeefc, #8a9da3);
+}
+
+#meet-georgia {
+    background-color: #8a9da3;
+    padding: 24px;
+    margin: 36px;
+}
