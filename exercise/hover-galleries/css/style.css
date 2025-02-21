@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#gallery-name {
+    text-align: center;
+    padding: 15px;
+}
+
+#gallery1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-flip {
+    flex: 200px;
+    border: 0px;
+    margin: 24px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.card-flip img {
+    height: 100px;
+}
+
+.card-flip .card-front,
+.card-flip .card-back {
+    border: 3px solid orange;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: rgb(253, 205, 117);
+    height: 325px;
+    width: 225px;
+}
+
+.card-flip .card-back {
+    transform: scaleX(0);
+}
+
+.card-flip .card-front {
+    position: absolute;
+    border-radius: 12px;
+    transition: transform 0.25s 0.25s;
+}
+
+.card-flip .card-back {
+    transition: trasform 0.25s;
+}
+
+.card-flip:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+.card-flip:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+#gallery-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-dropdown {
+    flex: 100px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(magenta, blue);
+    color: white;
+}
+
+.card-dropdown .card-content {
+    position: absolute;
+    background-color: rgb(255, 0, 255);
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px black;
+    left: 0px;
+    margin: 3px 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+.card-dropdown:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#gallery-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.trivia-card {
+    flex: 100px;
+    border: 3px solid red;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.trivia-card .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+.trivia-card:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
