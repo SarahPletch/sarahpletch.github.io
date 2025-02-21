@@ -14,11 +14,12 @@ body {
 
 #gallery1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
 }
 
 .card-flip {
-    flex: 200px;
+    flex: 100px;
     border: 0px;
     margin: 24px;
     padding: 0px;
@@ -37,7 +38,6 @@ body {
     padding: 24px;
     background-color: rgb(253, 205, 117);
     height: 325px;
-    width: 225px;
 }
 
 .card-flip .card-back {
