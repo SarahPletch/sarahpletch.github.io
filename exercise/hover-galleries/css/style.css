@@ -114,19 +114,18 @@ body {
 
 .trivia-card {
     flex: 100px;
-    border: 3px solid red;
+    border: 3px solid lime;
     margin: 24px;
     padding: 24px;
     border-radius: 12px;
     text-align: center;
-    height: 200px;
-    background-color: lightgreen;    
+    height: 200px;    
     background-color: black;
-    color: white;
+    color: lime;
 }
 
 .trivia-card .trivia-header {
-    text-shadow: #fc0 1px 0 10px;
+    text-shadow: lime 1px 0 10px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
@@ -143,7 +142,7 @@ body {
 }
 
 .trivia-card .card-content {
-    text-shadow: #fc0 1px 0 10px;
+    text-shadow: lime 1px 0 10px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
