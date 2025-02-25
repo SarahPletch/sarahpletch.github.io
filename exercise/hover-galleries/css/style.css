@@ -120,17 +120,37 @@ body {
     border-radius: 12px;
     text-align: center;
     height: 200px;
-    background-color: lightgreen;
+    background-color: lightgreen;    
+    background-color: black;
+    color: white;
 }
 
-.trivia-card .card-content {
+.trivia-card .trivia-header {
+    text-shadow: #fc0 1px 0 10px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
     transition:
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s;
+        opacity 0.25s,
+        visibility 0.25s,
+        transform 0.25s;
+}
+
+.trivia-card:hover .trivia-header {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.trivia-card .card-content {
+    text-shadow: #fc0 1px 0 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 7s,
+        visibility 7s,
+        transform 7s;
 }
 
 .trivia-card:hover .card-content {
