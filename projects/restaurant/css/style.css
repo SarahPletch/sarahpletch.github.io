@@ -14,9 +14,10 @@ body {
     align-items: center;
     position: sticky;
     top: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 10px solid #ffd871;
     padding-right: 24px;
     background-color: white;
+    z-index: 99;
 }
 
 #navbar a {
@@ -26,7 +27,7 @@ body {
     font-size: 24px;
     font-family: "Expletus Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 500;
     font-style: normal;
     display: inline-block;
 }
@@ -34,7 +35,8 @@ body {
 #navbar #links a:hover {
     background-color: #ffd871;
     margin: 0px;
-
+    transition: 
+        background-color 0.25s;
 }
 
 #navbar img {
@@ -104,7 +106,14 @@ body {
 }
 
 #content-container a:hover {
-    background: gray;
+    background-color: gray;
+    transition:
+        background-color 0.25s;
+}
+
+#content-container a:active {
+    background-color: white;
+    color: black;
 }
 
 #footer {
@@ -113,12 +122,20 @@ body {
     color: white;
 }
 
+#footer #logo {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+
 #footer a {
     text-decoration: none;
 }
 
 #columns {
-    width: 1000px;
+    width: 900px;
     margin: 0px auto;
     padding: 48px 0px;
     display: flex;
@@ -135,14 +152,214 @@ body {
     color: white;
 }
 
-#link-name {
-    width: 1000px;
-    margin: 0px auto;
-    font-size: 20px;
-    padding: 20px 0px;
-    border-bottom: 2px solid #ffd871;
+#columns a:hover {
+    color: #ffd871;
+    transition: 
+        color 0.25s;
+}
+
+#copyright p {
+    text-align: center;
+    margin: 0px;
+    background-color: #ffd871;
+}
+
+#hero {
+    background-image: url("../images/glazed-salmon2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 100px;
+}
+
+#hero-content {
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-family: "Alex Brush", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+#hero h4 {
     font-family: "Expletus Sans", serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
+    font-size: 25px;
+}
+
+#hero a {
+    text-decoration: none;
+    background-color: #ffd871;
+    padding: 10px 15px;
+    border-radius: 35px;
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+
+#hero a:hover {
+    background-color: white;
+    transition:
+        background-color 0.5s;
+}
+
+#hero a:active {
+    background-color: black;
+    color: white;
+    transition: 
+        background-color 0.5s;
+}
+
+#menu-content {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+
+#main-content {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#menu-header {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+
+#menu-header-content {
+    text-align: center;
+    background-color: #ffd871;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#menu-header h1 {
+    font-family: "Alex Brush", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+
+#menu-header p {
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.menu-item {
+    margin: 15px;
+}
+
+#main-content h3 {
+    font-family: "Expletus Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#main-content p {
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#main-content h2 {
+    text-align: center;
+    background: black;
+    color: #ffd871;
+    font-family: "Alex Brush", serif;
+    font-weight: bold;
+    font-style: normal;
+    padding: 15px;
+    font-size: 45px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    border-right: 5px solid #ffd871;
+    padding-right: 20px;
+}
+
+#sidebar h3 {
+    font-family: "Expletus Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px; 
+    border-bottom: 3px solid #ffd871;   
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#sidebar a:hover {
+    color: #ffd871;
+    transition: 
+        color 0.25s;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    padding: 12px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.card {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    margin: 36px 36px 0xp;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 35px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card a {
+    text-decoration: none;
+    font-family: "Expletus Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    display: block;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.card a:hover {
+    color: #ffd871;
+    transition: 
+        color 0.25s;
 }
