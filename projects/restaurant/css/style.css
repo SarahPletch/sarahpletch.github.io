@@ -530,4 +530,28 @@ body {
     #hero-content a {
         font-size: 14px;
     }
+
+    #menu-header {
+        grid-template-columns: 1fr;
+    }
+
+    #menu-header-content h1 {
+        font-size: 55px;
+    }
+
+    #menu-header-content p {
+        font-size: 14px;
+    }
+
+    #menu-content {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar {
+        align-items: center;
+    }
+
+    #sidebar a {
+        font-size: 18px;
+    }
 }
