@@ -82,10 +82,7 @@ body {
 
 #content .button {
     display: inline-block;
-    background-color: black;
-    padding: 24px;
-    margin-right: 12px;
-    margin-left: 12px;
+    margin: 14px;
 }
 
 .button a {
@@ -93,6 +90,18 @@ body {
     color: white;
     font-family: "Racing Sans One", sans-serif;
     font-weight: 100;
+    background-color: black;
+    padding: 15px;
+}
+
+.button a:hover {
+    background-color: rgb(104, 104, 104);
+    transition: 
+        background-color 0.25s;
+}
+
+.button a:active {
+    background-color: blue;
 }
 
 /*Tablet Media Query*/
