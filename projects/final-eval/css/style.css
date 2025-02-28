@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alfa+Slab+One&family=Birthstone+Bounce:wght@400;500&family=Bonheur+Royale&family=Delius+Unicase:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Fira+Mono:wght@400;500;700&family=Grechen+Fuemen&family=Marcellus&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Rubik+80s+Fade&family=Rubik+Dirt&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&family=Shrikhand&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alfa+Slab+One&family=Birthstone+Bounce:wght@400;500&family=Bonheur+Royale&family=Delius+Unicase:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Fira+Mono:wght@400;500;700&family=Grechen+Fuemen&family=Marcellus&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Racing+Sans+One&family=Rubik+80s+Fade&family=Rubik+Dirt&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&family=Shrikhand&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alfa+Slab+One&family=Birthstone+Bounce:wght@400;500&family=Bonheur+Royale&family=Delius+Unicase:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Fira+Mono:wght@400;500;700&family=Grechen+Fuemen&family=Maiden+Orange&family=Marcellus&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Racing+Sans+One&family=Rubik+80s+Fade&family=Rubik+Dirt&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&family=Shrikhand&family=Sixtyfour+Convergence&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    text-align: center;
+}
+
+#header h4 {
+    font-size: 24px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+}
+
+#header h1 {
+    font-size: 85px;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+#header h2 {
+    font-size: 45px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+}
+
+#flyers {
+    display: flex;
+    justify-content: center;
+}
+
+#flyers #vs {
+    display: flex;
+    align-items: center;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.card {
+    margin: 48px;
+}
+
+.card img {
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+}
+
+.card h2 {
+    text-align: center;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#content {
+    text-align: center;
+}
+
+#content h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#content p {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#content .button {
+    display: inline-block;
+    background-color: black;
+    padding: 24px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 100;
+}
+
+/*Tablet Media Query*/
+@media screen and (min-width: 801px) and (max-width: 1025px) {
+    #header h1 {
+        font-size: 70px;
+    }
+
+    #header h2 {
+        font-size: 40px;
+    }
+    
+    #flyers {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #flyers #vs {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #flyers .card {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .card img {
+        width: 400px;
+        height: 400px;       
+    }
+
+    .card h2 {
+        font-size: 35px;
+    }
+
+    #content .button {
+        padding: 15px;
+    }
+
+    #content h2 {
+        font-size: 27px;
+    }
+
+    #content p {
+        font-size: 16px;
+    }
+}
+
+/*mobile media query*/
+@media screen and (min-width: 480px) and (max-width: 800px) {
+    #header h4 {
+        font-size: 18px;
+    }
+
+    #header h1 {
+        font-size: 60px;
+    }
+
+    #header h2 {
+        font-size: 35px;
+    }
+
+    #flyers {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #flyers #vs {
+        display: block;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #flyers .card {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .card img {
+        width: 350px;
+        height: 350px;        
+    }
+
+    .card h2 {
+        font-size: 30px;
+    }
+
+    #content h2 {
+        font-size: 25px;
+    }
+
+    #content p {
+        font-size: 14px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #content .button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        padding: 12px;
+    }
+}
