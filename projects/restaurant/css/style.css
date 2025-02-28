@@ -363,3 +363,171 @@ body {
     transition: 
         color 0.25s;
 }
+
+/*Tablet Media Query*/
+@media screen and (max-width: 1045px) and (min-width: 801px) {
+    #navbar a {
+        font-size: 18px;
+    }
+
+    #navbar img {
+        width: 125px;
+        margin-left: 24px;
+    }
+
+    #content-container h1 {
+        font-size: 50px;
+    }
+
+    #image-container img {
+        width: 400px;
+        height: 375px;
+    }
+
+    #content-container h4 {
+        font-size: 22px;
+    }
+
+    #content-container a {
+        font-size: 16px;
+    }
+
+    .card img {
+        width: 150px;
+        height: 175px
+    }
+
+    .card a {
+        font-size: 22px;
+    }
+
+    #columns {
+        min-width: 500px;
+        max-width: 700px;
+    }
+
+    #hero-content h2 {
+        font-size: 70px;
+    }
+
+    #hero-content h4 {
+        font-size: 22px;
+    }
+
+    #hero-content a {
+        font-size: 14px;
+    }
+
+    #menu-header h1 {
+        font-size: 60px;
+    }
+
+    #menu-header {
+        padding: 15px;
+    }
+
+    #sidebar h3 {
+        font-size: 22px;
+    }
+
+    #sidebar a {
+        font-size: 18px;
+    }
+}
+
+/*Mobile Media Query*/
+@media screen and (max-width: 800px) and (min-width: 480px) {
+    #logo img {
+        width: 125px;
+        display: block;        
+    }
+
+    #logo {
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #navbar a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #image-container img {
+        width: 375px;
+    }
+
+    #side-by-side {
+        flex-direction: column;
+    }
+
+    #content-container {
+        text-align: center;
+    }
+
+    #content-container h1{
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    #content-container h4 {
+        font-size: 20px;
+    }
+
+    #content-container a {
+        font-size: 15px;
+    }
+
+    .card-container {
+        display: grid;
+
+    }
+
+    .card img {
+        width: 300px;   
+    }
+
+    .single-column {
+        min-width: 0px;
+    }
+
+    #columns {
+        width: 375px;
+        margin: 0px auto;
+        padding: 15px 0px;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Marcellus", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+    }
+
+    #footer #logo {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #hero-content h2 {
+        font-size: 55px;
+    }
+
+    #hero-content h4 {
+        font-size: 20px;
+    }
+
+    #hero-content a {
+        font-size: 14px;
+    }
+}
