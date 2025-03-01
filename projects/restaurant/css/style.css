@@ -60,6 +60,7 @@ body {
 #side-by-side {
     display: flex;
     align-items: center;
+    height: 500px;
 }
 
 #side-by-side #image-container {
@@ -69,20 +70,19 @@ body {
 #side-by-side #content-container {
     flex: 1;
     padding: 25px;
-    
 }
 
 #image-container img {
-    border-radius: 35px;
+    border-radius: 35px 0px 0px 35px;
+    width: 600px;
 }
 
 #content-container h1 {
     font-family: "Alex Brush", serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 80px;
-    margin-bottom: 0px;
-    
+    font-size: 75px;
+    margin-bottom: 0px;  
 }
 
 #content-container h4 {
@@ -103,12 +103,13 @@ body {
     font-style: normal;
     font-size: 18px;
     border-radius: 35px;
+    margin-bottom: 25px;
 }
 
 #content-container a:hover {
-    background-color: gray;
+    color: #ffd871;
     transition:
-        background-color 0.25s;
+        color 0.25s;
 }
 
 #content-container a:active {
@@ -165,17 +166,20 @@ body {
 }
 
 #hero {
-    background-image: url("../images/glazed-salmon2.jpg");
+    background-image: url("../images/glazed-salmon4.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    height: 450px;
 }
 
 #hero-content {
     color: white;
     padding-top: 5px;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 #hero h2 {
@@ -184,7 +188,6 @@ body {
     font-style: normal;
     font-size: 80px;
     margin-bottom: 0px;
-    margin-top: 15px;
 }
 
 #hero h4 {
@@ -192,29 +195,38 @@ body {
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+#hero p {
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 20px;
 }
 
 #hero a {
     text-decoration: none;
-    background-color: #ffd871;
-    padding: 10px 15px;
+    background-color: black;
+    padding: 10px 35px;
     border-radius: 35px;
     font-family: "Marcellus", serif;
     font-weight: bold;
     font-style: normal;
-    color: black;
+    color: white;
+    font-size: 18px;
 }
 
 #hero a:hover {
-    background-color: white;
+    color: #ffd871;
     transition:
-        background-color 0.5s;
+        color 0.5s;
 }
 
 #hero a:active {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 
         background-color 0.5s;
 }
@@ -331,31 +343,44 @@ body {
 
 .card {
     flex: 1;
-    padding: 15px;
+    padding: 25px;
     text-align: center;
-    margin: 36px 36px 0xp;
+    padding: 0px;
+    border: 2px solid #ffd871;
+    margin: 35px;  
+    background-color: #ffd871;
+    border-radius: 15px;
 }
 
 .card img {
     width: 100%;
-    height: 250px;
-    border-radius: 35px;
+    height: 200px; 
+    border-radius: 15px 15px 0px 0px;  
 }
 
 .card-container {
     display: flex;
 }
 
-.card a {
-    text-decoration: none;
+.card h4 {
     font-family: "Expletus Sans", serif;
     font-optical-sizing: auto;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.card a {
+    text-decoration: none;
+    font-family: "Marcellus", serif;
     font-weight: bold;
     font-style: normal;
     color: white;
     display: block;
-    font-size: 25px;
-    margin-top: 15px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: black;
+    margin: 30px;
+    border-radius: 35px;
 }
 
 .card a:hover {
@@ -365,7 +390,7 @@ body {
 }
 
 /*Tablet Media Query*/
-@media screen and (max-width: 1045px) and (min-width: 801px) {
+@media screen and (max-width: 1100px) and (min-width: 801px) {
     #navbar a {
         font-size: 18px;
     }
@@ -373,6 +398,10 @@ body {
     #navbar img {
         width: 125px;
         margin-left: 24px;
+    }
+
+    #side-by-side {
+        height: 375px;
     }
 
     #content-container h1 {
@@ -386,19 +415,29 @@ body {
 
     #content-container h4 {
         font-size: 22px;
+        margin-top: 5px;
     }
 
     #content-container a {
         font-size: 16px;
     }
+    
+    .card {
+        margin: 10px;
+        height: 325px;
+    }
+
+    .card h4 {
+        font-size: 16px;
+    }
 
     .card img {
-        width: 150px;
-        height: 175px
+        width: 100%;
+        height: 150px;
     }
 
     .card a {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     #columns {
@@ -412,6 +451,10 @@ body {
 
     #hero-content h4 {
         font-size: 22px;
+    }
+
+    #hero-content p {
+        font-size: 14px;
     }
 
     #hero-content a {
@@ -464,37 +507,59 @@ body {
     }
 
     #image-container img {
-        width: 375px;
+        width: 370px;
+        border-radius: 35px 35px 0px 0px;
+        height: 300px;
+    }
+
+    #media-image {
+        width: 380px;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #side-by-side {
-        flex-direction: column;
+        flex-direction: column; 
+        height: 550px;    
     }
 
     #content-container {
         text-align: center;
     }
 
-    #content-container h1{
-        font-size: 50px;
+    #content-container h1 {
+        font-size: 40px;
         margin-top: 0px;
     }
 
     #content-container h4 {
-        font-size: 20px;
+        font-size: 18px;
+        margin-top: 10px;
     }
 
     #content-container a {
-        font-size: 15px;
+        font-size: 14px;
+        margin: 10px;
     }
 
     .card-container {
         display: grid;
+    }
 
+    .card {
+        width: 250px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .card img {
-        width: 300px;   
+        width: 100%;  
+        height: 225px; 
+    }
+
+    .card a {
+        font-size: 20px;
     }
 
     .single-column {
@@ -525,6 +590,10 @@ body {
 
     #hero-content h4 {
         font-size: 20px;
+    }
+
+    #hero-content p {
+        font-size: 12px;
     }
 
     #hero-content a {
